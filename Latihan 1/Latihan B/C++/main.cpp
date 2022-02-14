@@ -6,8 +6,7 @@ int main(){
     string namaTim;
     string negaraAsal;
     string tahun;
-    string pemain;
-    string pelatih;  
+    string pemain;  
 
     int jmlTim = 0;
     cout<<"Masukan Jumlah Tim : ";
