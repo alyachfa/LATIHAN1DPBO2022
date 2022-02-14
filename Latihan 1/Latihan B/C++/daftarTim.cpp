@@ -4,7 +4,7 @@ class daftarTim
         string namaTim;
         string negaraAsal;
         string tahun;
-        string pemain[20];
+        string pemain;
      
     public:
         daftarTim(){
@@ -35,12 +35,12 @@ class daftarTim
             return this->tahun;
         }
 
-        void setPemain(int i, string pemain){
-            this->pemain[i] = pemain;
+        void setPemain(){
+            this->pemain = pemain;
         }
 
-        string getPemain(int i){
-            return this->pemain[i];
+        string getPemain(){
+            return this->pemain;
         }
 
 
