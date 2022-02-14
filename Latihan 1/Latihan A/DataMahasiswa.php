@@ -2,71 +2,71 @@
 
 class DataMahasiswa
 {
-    private $nim = null;
-    private $nama = null;
+    private $Nim = null;
+    private $Nama = null;
     private $jenisKelamin = null;
-    private $prodi = null;
-    private $semester = null;
+    private $Prodi = null;
+    private $Semester = null;
 
     // constructor
-    public function __construct($nim = null, $nama = null, $jenisKelamin= null, $prodi = null, $semester = null)
+    public function __construct($Nim = null, $Nama = null, $jenisKelamin= null, $Prodi = null, $Semester = null)
     {
-        $this->nim = $nim;
-        $this->nama = $nama;
+        $this->Nim = $Nim;
+        $this->Nama = $Nama;
         $this->jenisKelamin = $jenisKelamin;
-        $this->prodi = $prodi;
-        $this->semester = $semester;
+        $this->Prodi = $Prodi;
+        $this->Semester = $Semester;
     }
 
     // setter dan getter method
-    public function setNim($nim)
+    public function setNim($Nim)
     {
-        $this->nim = $nim;
+        $this->Nim = $Nim;
     }
 
     public function getNim()
     {
-        return $this->nim;
+        return $this->Nim;
     }
 
-    public function setNama($nama)
+    public function setNama($Nama)
     {
-        $this->nama = $nama;
+        $this->Nama = $Nama;
     }
 
     public function getNama()
     {
-        return $this->nama;
+        return $this->Nama;
     }
 
-    public function setGender($jenisKelamin)
+    public function setjenisKelamin($jenisKelamin)
     {
         $this->jenisKelamin = $jenisKelamin;
     }
 
-    public function getGender()
+    public function getjenisKelamin()
     {
         return $this->jenisKelamin;
     }
 
-    public function setProdi($prodi)
+    public function setProdi($Prodi)
     {
-        $this->prodi = $prodi;
+        $this->Prodi = $Prodi;
     }
 
     public function getProdi()
     {
-        return $this->prodi;
+        return $this->Prodi;
     }
 
-    public function setSemester($semester)
+    public function setSemester($Semester)
     {
-        $this->semester = $semester;
+        $this->Semester = $Semester;
     }
 
     public function getSemester()
     {
-        return $this->semester;
+        return $this->Semester;
     }
 }
 
