@@ -5,7 +5,6 @@ class daftarTim
         string negaraAsal;
         string tahun;
         string pemain[20];
-        string pelatih;
      
     public:
         daftarTim(){
@@ -44,13 +43,7 @@ class daftarTim
             return this->pemain[i];
         }
 
-        void setPelatih(){
-            this->pelatih = pelatih;
-        }
 
-        string getPelatih(){
-            return this->pelatih;
-        }
 
         ~daftarTim(){
 
